@@ -1,0 +1,48 @@
+nav {
+	border-radius: 0!important;
+}
+span.navbar-brand:hover {
+	color: #fff!important;
+	cursor: default;
+}
+
+
+form {
+	background-color: #ECF0F1;
+	padding: 30px;
+	border-radius: 5px;
+	margin: 30px auto 0;
+	max-width: 400px;
+}
+form input[type="number"] {
+	max-width: 100px;
+}
+form button {
+	margin-top: 20px;
+}
+
+legend span {
+	font-size: 80%;
+	font-weight: bold;
+	color: red;
+}
+legend span.meter {
+	display: inline-block;
+	background-color: #fff;
+	margin-right: 1px;
+	width: 15px;
+	height: 15px;
+}
+legend span.met1, legend span.met2, 
+legend span.met3 {
+	background-color: red;
+}
+legend span.met4, legend span.met5, 
+legend span.met6  {
+	background-color: blue;
+}
+legend span.met7, legend span.met8, 
+legend span.met9, legend span.met10  {
+	background-color: green;
+}
+
